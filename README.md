@@ -67,7 +67,7 @@ Please check that the models should be saved in the folder `Models`. Pick specif
 The models can be fine-tuned on any of the following [datasets](#dataset) .
 1. paws
 2. mrpc-new
-3. sst2-eq: Train Size: 69393; Validation size: 872; Test Size: 5956
+3. sst2-eq: Train Size: 61393; Validation size: 872; Test Size: 5956
 4. sst2-new: Train Size: 60615; Validation size: 872; Test Size: 6734
 5. rte-eq
 6. qnli-eq
@@ -131,7 +131,7 @@ python create_all_references.py -i precommands.json
 For final evaluation run:
 
 ```python
-python src/evaluation.py -pretrain_path `Models`
+python src/evaluation.py -pretrain_path Models
 ```
 
 The final evaluation results can be accessed via `FinalResults.csv` generated.
