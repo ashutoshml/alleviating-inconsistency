@@ -3,7 +3,7 @@
 Source code for [ACL 2022 Findings](https://www.2022.aclweb.org/) paper: [Striking a Balance: Alleviating Inconsistency in Pre-trained Models for Symmetric Classification Tasks](https://aclanthology.org/2022.findings-acl.148.pdf)
 
 <p align="center">
-  <img align="center" src="https://github.com/ashutoshml/alleviating-inconsistency/blob/master/images/consistentbert.png" alt="Image" height="420" >
+  <img align="center" src="https://github.com/ashutoshml/alleviating-inconsistency/blob/main/images/consistentbert.png" alt="Image" height="420" >
 </p>
 
 ```diff
