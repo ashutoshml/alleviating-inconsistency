@@ -59,7 +59,7 @@ CUDA_VISIBLE_DEVICES=0 TOKENIZERS_PARALLELISM=True python src/training.py -datas
 For Standard Single Model
 
 ```python
-CUDA_VISIBLE_DEVICES=0 TOKENIZERS_PARALLELISM=True python src/training.py -dataset qqp-new -add_ds paws mrpc-new -model roberta -model_type single -lr 4e-5 -additional_cls -div kl -seed 42 -augment_reverse -tbs 12 -n_gpus 1 -s_off -maxe 4
+CUDA_VISIBLE_DEVICES=0 TOKENIZERS_PARALLELISM=True python src/training.py -dataset qqp-new -add_ds paws mrpc-new -model roberta -model_type single -lr 4e-5 -additional_cls -seed 42 -augment_reverse -tbs 12 -n_gpus 1 -s_off -maxe 4
 ```
 
 Please check that the models should be saved in the folder `Models`. Pick specific model directory inside the `Models` directory for checkpoint finetuning. Let's call that `Models/ckptdir`
