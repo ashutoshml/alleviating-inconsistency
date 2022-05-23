@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Models*/*
+Logs*/*
+notebook*/*
+src/misc*/*
+commands*/*
+data*/*
+lightning_log*/*
+wandb*/*
