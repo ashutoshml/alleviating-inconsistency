@@ -21,6 +21,8 @@ Download the datasets from the following url:
 
 [Datasets](https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/ashutosh_iisc_ac_in/EoOzEpz5gARBlJDPSs4RVnIBNAghWwPU0FG4cKYGzTpo9g?e=pzeqWx)
 
+**Note**: While the link should be easily accessible, please refresh the page or press back in the browser and then forward, *incase it asks for login*.
+
 ## Setup
 
 To get the project's source code, clone the github repository:
@@ -72,7 +74,7 @@ The models can be fine-tuned on any of the following [datasets](#dataset) .
 5. rte-eq
 6. qnli-eq
 
-**Note**: The original `sst2-eq` data files got corrupted and had to be regenerated. We provide two new versions `sst2-eq` and `sst2-new` as replacements. The final performance of the model, should, ideally, remain unchanged.
+**Note**: The original `sst2-eq` data files got corrupted and had to be regenerated. We provide two new versions `sst2-eq` and `sst2-new` as replacements. The final performance of the model should, ideally, remain unchanged.
 
 Replace any of the `<dataset>` mentioned above in the command below:
 
